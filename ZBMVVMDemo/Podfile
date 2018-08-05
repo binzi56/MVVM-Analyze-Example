@@ -1,0 +1,10 @@
+platform:ios, ‘8.0’
+
+use_frameworks!
+
+target ‘ZBMVVMDemo’ do
+    pod 'ReactiveObjC'
+    pod 'Masonry'
+    pod 'AFNetworking'
+#    pod 'SVProgressHUD'
+end

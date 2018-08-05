@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launchScreenImage" translatesAutoresizingMaskIntoConstraints="NO" id="BF8-U1-0Ty">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="火之玉" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bEO-FY-eF6">
+                                <rect key="frame" x="154" y="548" width="67" height="27"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MVVM框架解析" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="buh-Uc-V6J">
+                                <rect key="frame" x="110" y="126" width="155" height="26.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="buh-Uc-V6J" secondAttribute="trailing" id="Czs-NQ-bRN"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="bEO-FY-eF6" secondAttribute="bottom" constant="92" id="Gtt-ua-h0q"/>
+                            <constraint firstItem="BF8-U1-0Ty" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Jao-jz-9WK"/>
+                            <constraint firstItem="buh-Uc-V6J" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="OWG-gF-BbL"/>
+                            <constraint firstItem="BF8-U1-0Ty" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="VLq-NH-sdn"/>
+                            <constraint firstItem="bEO-FY-eF6" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Yfe-zS-vLX"/>
+                            <constraint firstItem="buh-Uc-V6J" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="106" id="Yu1-Kx-3NC"/>
+                            <constraint firstItem="bEO-FY-eF6" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="br9-nq-CKt"/>
+                            <constraint firstItem="buh-Uc-V6J" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="eln-Yd-lJC"/>
+                            <constraint firstItem="BF8-U1-0Ty" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="ld2-3U-yTe"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="bEO-FY-eF6" secondAttribute="trailing" id="tob-50-Ilj"/>
+                            <constraint firstItem="BF8-U1-0Ty" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="yP0-wv-4wa"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="launchScreenImage" width="580" height="1031"/>
+    </resources>
+</document>
